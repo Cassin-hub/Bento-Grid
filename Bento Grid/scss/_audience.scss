@@ -1,0 +1,19 @@
+.audience {
+    background-color: $fiveColor;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .audience {
+        grid-area: audience;
+        height: 200px;
+        align-items: center;
+    }
+}
+
+.img-audience {
+    width: 60%;
+}

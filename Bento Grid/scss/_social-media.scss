@@ -1,0 +1,23 @@
+.social-media {
+    border-radius: 5px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $twoColor;
+    color: $fiveColor;
+}
+
+@media (min-width: 600px) {
+    .social-media {
+        grid-area: social-media;
+        height: 100%;
+    }
+
+}
+
+.stars {
+    padding: 10px;
+    width: 40%;
+}

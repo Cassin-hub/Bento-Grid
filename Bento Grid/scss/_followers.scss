@@ -1,0 +1,39 @@
+.followers {
+    height: 300px;
+    background-color: $twoColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    .followers {
+        grid-area: followers;
+        height: 200px;
+        flex-direction: row;
+    }
+}
+
+.img-followers {
+    width: 60%;
+}
+
+@media (min-width: 600px) {
+    .img-followers {
+        width: 40%;
+        padding-left: 10px;
+    }
+}
+
+.title-followers {
+    margin: 0;
+    padding-top: 20px;
+    max-width: 70%;
+    text-align: center;
+}
+@media (min-width: 600px) {
+    .title-followers {
+   font-size: 1.5em;
+    }
+}

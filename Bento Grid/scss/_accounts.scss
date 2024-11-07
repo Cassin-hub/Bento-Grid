@@ -1,0 +1,36 @@
+.accounts {
+    border-radius: 5px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $fiveColor;
+}
+
+@media (min-width: 600px) {
+    .accounts {
+        grid-area: accounts;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .title-accounts {
+        font-size: 1.2em;
+    }
+}
+
+
+.img-accounts {
+    width: 80%;
+    padding: 10px;
+}
+
+@media (min-width: 600px) {
+    .img-accounts {
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,34 @@
+.schedule-media {
+    border-radius: 5px;
+    height: 400px;
+    background-color: $firstColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    .schedule-media {
+        grid-area: schedule-media;
+        height: 100%;
+    }
+}
+
+.img-schedule {
+    width: 80%;
+}
+
+@media (min-width: 600px) {
+    .img-schedule {
+        width: 80%;
+    }
+}
+
+.title-schedule {
+    padding: 20px;
+}
+
+.p-schedule {
+    text-align: center;
+}
